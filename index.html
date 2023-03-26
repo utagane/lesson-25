@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Домашнее задание -->
+    <div class="container">
+        <div class="task">
+            <h1>Задание 1</h1>
+            <p class="info">
+                Привяжите всем инпутам следующее событие - по потери фокуса каждый инпут выводит свое value в абзац с id="test"
+            </p>
+            <input class="task-1" type="text" value="1">
+            <input class="task-1" type="text" value="2">
+            <input class="task-1" type="text" value="3">
+            <p id="test" class="border"></p>
+        </div>
+        <hr>
+
+        <div class="task">
+            <h1>Задание 2</h1>
+            <p class="info">
+                Для всех инпутов сделайте так, чтобы они выводили свой value алертом 
+                при нажатии на любой из них, но только по первому нажатию. Повторное 
+                нажатие на инпут не должно вызывать реакции.
+            </p>
+            <input class="task-2" type="text" value="1">
+            <input class="task-2" type="text" value="2">
+            <input class="task-2" type="text" value="3">
+        </div>
+        <hr>
+
+        <div class="task">
+            <h1>Задание 3</h1>
+            <p class="info">
+                Даны абзацы с числами. По нажатию на абзац в нем должен появится 
+                квадрат числа, которое он содержит.
+            </p>
+            <p class="task-3 border">2</p>
+            <p class="task-3 border">4</p>
+            <p class="task-3 border">6</p>
+        </div>
+        <hr>
+
+        <div class="task">
+            <h1>Задание 4</h1>
+            <p class="info">
+                Даны инпуты. Сделайте так, чтобы все инпуты по потери фокуса проверяли 
+                свое содержимое на правильное количество символов. Сколько символов 
+                должно быть в инпуте, указывается в атрибуте data-length. Если вбито 
+                правильное количество, то граница инпута становится зеленой, если 
+                неправильное - красной.
+            </p>
+            <input class="task-4" type="text" data-length="4">
+            <input class="task-4" type="text" data-length="7">
+            <input class="task-4" type="text" data-length="9">
+        </div>
+        <hr><br><br><br><br>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
